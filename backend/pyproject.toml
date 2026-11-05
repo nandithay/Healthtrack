@@ -1,0 +1,21 @@
+[project]
+name = "healthtrack-api"
+version = "0.1.0"
+description = "HealthTrack symptom analysis API"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.115,<1",
+    "uvicorn[standard]>=0.30,<1",
+    "google-genai>=1.0,<2",
+    "sqlalchemy>=2.0,<3",
+    "pydantic>=2.0,<3",
+    "python-dotenv>=1.0,<2",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10", "httpx>=0.27,<1"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+
