@@ -89,7 +89,7 @@ Backend tests cover invalid input, three-condition output, cache reuse, history 
 
 ## AI usage
 
-Codex was used to plan the architecture and draft the React UI, FastAPI routes, Gemini integration, tests, and README. The generated work was checked with backend tests, a frontend test, and a production frontend build; issues found during those checks were corrected. Google Gemini is the application's runtime analysis provider. No real patient data was used, and live Gemini output has not been verified without a local API key. Update this section if additional AI tools are used while preparing the final submission or demo.
+Codex was used to plan the architecture and draft the React UI, FastAPI routes, Gemini integration, tests, and README. The generated work was checked with backend tests, a frontend test, and a production frontend build; issues found during those checks were corrected. Google Gemini is the application's runtime analysis provider. No real patient data was used, and live Gemini output has been verified with a local API key. Update this section if additional AI tools are used while preparing the final submission or demo.
 
 ## Submission checklist
 
